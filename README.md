@@ -10,7 +10,7 @@ touch docker-compose.yml
 mkdir -p volumes/{config,file,logs}
 ```
 
-Populate the vault config vault.json. (As you can see the config is local, in the next couple of posts, I will show how to persist this config to Amazon S3)
+Populate the vault config vault.json. (As you can see the config is local)
 
 ```
 cat > volumes/config/vault.json << EOF
